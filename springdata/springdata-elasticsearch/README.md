@@ -7,7 +7,7 @@
 2 [ElasticSearch in Java (TransportClient): NoNodeAvailableException - None of the configured nodes are available](https://discuss.elastic.co/t/elasticsearch-in-java-transportclient-nonodeavailableexception-none-of-the-configured-nodesare-available/34452)  
 节点不可用问题。
 
-3 [Introduction to Spring Data Elasticsearch](http://www.baeldung.com/spring-data-elasticsearch-tutorial)
+3 [Introduction to Spring Data Elasticsearch](http://www.baeldung.com/spring-data-elasticsearch-tutorial)  
 Spring Data Elasticsearch教程。
 
 # 1 有关日期的问题

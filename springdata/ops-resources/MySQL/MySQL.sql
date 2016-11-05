@@ -1,0 +1,12 @@
+# 查看变量
+show variables;
+show variables like 'AUTOCOMMIT';
+
+# 查看Schema - 表中字段
+SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_DEFAULT, COLUMN_COMMENT 
+FROM information_schema.COLUMNS
+WHERE TABLE_SCHEMA='sys'  AND TABLE_NAME='sys_config'
+ORDER BY COLUMN_NAME -- ORDINAL_POSITION
+;
+
+
